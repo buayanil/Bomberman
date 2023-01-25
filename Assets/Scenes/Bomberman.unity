@@ -155,6 +155,8 @@ MonoBehaviour:
   players:
   - {fileID: 1997689746}
   - {fileID: 314580365}
+  - {fileID: 265975645}
+  - {fileID: 1161003719}
 --- !u!4 &92166878
 Transform:
   m_ObjectHideFlags: 0
