@@ -31,6 +31,7 @@ public class AnimatedSpriteRenderer : MonoBehaviour
 
     private void NextFrame(){
         animationFrame++;
+        
 
         if(loop && animationFrame>= animationSprites.Length){
             animationFrame = 0;
@@ -42,4 +43,7 @@ public class AnimatedSpriteRenderer : MonoBehaviour
             spriteRenderer.sprite = animationSprites[animationFrame];
         }         
     }
+
+    
+
 }
